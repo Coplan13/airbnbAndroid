@@ -1,7 +1,9 @@
-package cefim.android.airbnb;
+package cefim.android.airbnb.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import cefim.android.airbnb.R;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -5,6 +5,7 @@
     <dimen name="logement_title">36dp</dimen>
     <dimen name="logement_type">22dp</dimen>
     <dimen name="normal_text">15dp</dimen>
+    <dimen name="title_text">22dp</dimen>
     <dimen name="horizontal_margin">15dp</dimen>
     <dimen name="vertical_margin">15dp</dimen>
 </resources>

@@ -3,16 +3,25 @@
   <component name="WizardSettings">
     <option name="children">
       <map>
+<<<<<<< HEAD
         <entry key="imageWizard">
+=======
+        <entry key="vectorWizard">
+>>>>>>> jeremy
           <value>
             <PersistentState>
               <option name="children">
                 <map>
+<<<<<<< HEAD
                   <entry key="imageAssetPanel">
+=======
+                  <entry key="vectorAssetStep">
+>>>>>>> jeremy
                     <value>
                       <PersistentState>
                         <option name="children">
                           <map>
+<<<<<<< HEAD
                             <entry key="actionbar">
                               <value>
                                 <PersistentState>
@@ -120,6 +129,14 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+=======
+                            <entry key="clipartAsset">
+                              <value>
+                                <PersistentState>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_stars_black_24dp.xml" />
+>>>>>>> jeremy
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -129,7 +146,13 @@
                         </option>
                         <option name="values">
                           <map>
+<<<<<<< HEAD
                             <entry key="outputIconType" value="ACTIONBAR" />
+=======
+                            <entry key="color" value="1e8449" />
+                            <entry key="outputName" value="ic_stars_black_24dp" />
+                            <entry key="sourceFile" value="$USER_HOME$" />
+>>>>>>> jeremy
                           </map>
                         </option>
                       </PersistentState>

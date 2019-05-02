@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.AppCompatButton;
 import android.util.Log;
 
 import android.content.Intent;
@@ -35,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
 
         @BindView(R.id.input_email) EditText _emailText;
         @BindView(R.id.input_password) EditText _passwordText;
-        @BindView(R.id.btn_login) Button _loginButton;
+        @BindView(R.id.btn_login) AppCompatButton _loginButton;
         @BindView(R.id.link_signup) TextView _signupLink;
 
         @Override
@@ -44,24 +45,31 @@ public class LoginActivity extends AppCompatActivity {
             setContentView(R.layout.activity_login);
             ButterKnife.bind(this);
 
-            _loginButton.setOnClickListener(new View.OnClickListener() {
 
-                @Override
-                public void onClick(View v) {
-                    login();
-                }
-            });
+            findViewById(R.id.btn_login).setOnClickListener(new View.OnClickListener() {
 
-            _signupLink.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        login();
+                    }
+                });
 
-                @Override
-                public void onClick(View v) {
-                    // Start the Signup activity
-                  //  Intent intent = new Intent(getApplicationContext(), SignupActivity.class);
-                  //  startActivityForResult(intent, REQUEST_SIGNUP);
-                }
-            });
+
+                _signupLink.setOnClickListener(new View.OnClickListener() {
+
+                    @Override
+                    public void onClick(View v) {
+                        // Start the Signup activity
+                        //  Intent intent = new Intent(getApplicationContext(), SignupActivity.class);
+                        //  startActivityForResult(intent, REQUEST_SIGNUP);
+                    }
+                });
+
+
+
+
         }
+
 
         public void login() {
 

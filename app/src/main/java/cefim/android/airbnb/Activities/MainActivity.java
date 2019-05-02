@@ -83,12 +83,9 @@ public class MainActivity extends AppCompatActivity {
 
                  setContentView(R.layout.fragment_recycler);
                  ajouterVilles();
-                recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
-
-                recyclerView.setLayoutManager(new LinearLayoutManager(getBaseContext()));
-
-
-                recyclerView.setAdapter(new MyAdapter(cities));
+                 recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
+                 recyclerView.setLayoutManager(new LinearLayoutManager(getBaseContext()));
+                 recyclerView.setAdapter(new MyAdapter(cities));
 
             }
         });

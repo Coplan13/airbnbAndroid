@@ -76,17 +76,17 @@
             android:layout_height="match_parent"
             android:orientation="horizontal"
             android:layout_marginBottom="5dp">
-        <TextView
-            android:id="@+id/notes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="?android:selectableItemBackground"
-            android:paddingLeft="20dp"
+            <TextView
+                android:id="@+id/notes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:paddingLeft="20dp"
 
-            tools:text="Paris"
-            android:fontFamily="sans-serif"
-            android:textColor="#333"
-            android:textSize="15sp"/>
+                tools:text="Paris"
+                android:fontFamily="sans-serif"
+                android:textColor="#333"
+                android:textSize="15sp"/>
 
             <TextView
                 android:layout_width="wrap_content"

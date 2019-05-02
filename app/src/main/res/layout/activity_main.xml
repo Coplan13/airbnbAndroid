@@ -138,6 +138,10 @@
             app:itemTextColor="@android:color/white"
             app:menu="@menu/bottom_nav_menu" />
 
+<<<<<<< HEAD
 
     </RelativeLayout>
 </LinearLayout>
+=======
+</RelativeLayout>
+>>>>>>> 174055c056cd351e8f975bf6fed0f39e8cd31053

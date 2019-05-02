@@ -13,6 +13,9 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="descriptionString">Description du logement :</string>
+    <string name="lorem_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec velit nisi, dapibus rhoncus nulla id, gravida tincidunt felis. Integer ut tincidunt orci. Praesent quis massa sed dolor ornare interdum. In auctor massa sed augue pharetra, quis varius quam pretium. Morbi.</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

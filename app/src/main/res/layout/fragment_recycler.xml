@@ -8,6 +8,7 @@ tools:context=".Activities.MainActivity">
 
 <android.support.design.widget.AppBarLayout
     android:layout_width="match_parent"
+<<<<<<< HEAD
     android:layout_height="wrap_content"
     android:theme="@style/MyMaterialTheme.AppBarOverlay"
     >
@@ -30,3 +31,6 @@ tools:context=".Activities.MainActivity">
         />
 
 </android.support.design.widget.CoordinatorLayout>
+=======
+    android:layout_height="match_parent"/>
+>>>>>>> 174055c056cd351e8f975bf6fed0f39e8cd31053

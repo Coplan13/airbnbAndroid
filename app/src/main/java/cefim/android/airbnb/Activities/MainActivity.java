@@ -3,6 +3,9 @@ package cefim.android.airbnb.Activities;
 
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
+
+import android.content.Intent;
+
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.design.widget.FloatingActionButton;
@@ -64,7 +67,8 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this, "Favoris", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.action_profil:
-                        Toast.makeText(MainActivity.this, "Profil", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(MainActivity.this, ProfilActivity.class);
+                        startActivity(intent);
                         break;
                 }
 

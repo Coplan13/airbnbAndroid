@@ -1,6 +1,5 @@
 package cefim.android.airbnb;
 
-import android.annotation.SuppressLint;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.Menu;
@@ -12,7 +11,10 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
+import cefim.android.airbnb.data.logements.Logement;
+
 public class MyViewHolder extends RecyclerView.ViewHolder {
+
 
     private TextView textViewView, prixView, noteView, paysView;
     private ImageView imageView;
@@ -24,12 +26,19 @@ public class MyViewHolder extends RecyclerView.ViewHolder {
         super(itemView);
 
         //c'est ici que l'on fait nos findView
-
+        Logement logement;
         textViewView = (TextView) itemView.findViewById(R.id.text);
         imageView = (ImageView) itemView.findViewById(R.id.image);
         prixView =(TextView) itemView.findViewById(R.id.prix);
         noteView = (TextView) itemView.findViewById(R.id.notes);
         paysView = (TextView) itemView.findViewById(R.id.pays);
+
+        itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
 
     }
 

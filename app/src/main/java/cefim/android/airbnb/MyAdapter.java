@@ -1,7 +1,9 @@
 package cefim.android.airbnb;
 
+import android.support.v4.app.NavUtils;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -36,4 +38,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
     public int getItemCount() {
         return list.size();
     }
+
+
+
 }
